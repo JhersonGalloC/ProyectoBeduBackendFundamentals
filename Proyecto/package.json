@@ -1,0 +1,17 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "This is my BEDU proyect for the backend fundamentals proyect in order to continue with my development career",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jherson Gallo cordovajherson3@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "mongoose": "^6.5.4",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

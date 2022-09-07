@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+/* This is for the Menu */
+
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+#menu form > button{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* this is for the images of the carousel*/
+
+.carousel-inner {
+  max-height: 39rem;
+}
+.carousel-inner > .item > img{
+  margin: 0 auto;
+}
+
+.map {
+  background: url(images/map.PNG);
+  width: 100%;
+  height: 500px;
+}
+#store {
+  background: #f3f3f3;
+  padding-bottom: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+#numbers-store div {
+  padding: 0 20px 0 0;
+  height: 48px;
+}
+
+#numbers-store div:not(:last-child) {
+  border-right: 2px solid #3f3f3f;
+}
+
+#numbers-store div:not(:first-child){
+  padding-left: 20px;
+}
+
+#numbers-store p {
+  margin: 0;
+}
+
+.wrapper {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 150px;
+}
+
+#contact-us-f {
+  position: relative;
+  top: -130px;
+}
+
+#contact-us-section {
+  background-color: #1b2a4b;
+  min-height: 500px;
+  position: absolute;
+}
+
+#title-form{
+  color: #3f3f3f;
+}
+
+
+footer{
+  background:  #030507;;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+  text-align: center;
+
+}
+
+/* MEDIA QUERIES SL*/
+ @media(max-width:1200px) {
+  #store {
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+ }
+
+
+
+/* MEDIA QUERIES SM*/
+
+@media (max-with: 768px) {
+  #first-content, #team {
+    width: 90% !important;
+  }
+
+  #team p {
+    display: none;
+  }
+
+  .dress-row {
+    width: 100% !important;
+    text-align: center;
+  }
+  #contact-us-f {
+    position: relative;
+    top: -110px;
+  }
+
+  
+}
+/* MEDIA QUERIES Super SM*/
+@media (max-with: 576px) {
+  .image-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
